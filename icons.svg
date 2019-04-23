@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-circle" viewBox="0 0 32 32">
+<title>circle</title>
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-feather" viewBox="0 0 14 32">
+<title>feather</title>
+<path d="M0.28 10.311c-0.21-0.8-0.658-2.966 0.366-5.334 1.661-3.837 5.744-4.865 6.226-4.978 0.579 0.134 4.142 1.018 6.043 4.444 1.44 2.595 1.061 5.094 0.915 5.869q-3.387 10.843-6.774 21.686z"></path>
+</symbol>
+</defs>
+</svg>

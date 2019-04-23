@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	height:500px;
+	width: 100vw;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+	background-color: black;
+}
+
+button{
+	display: inline; 
+	padding: 5px;
+	font-family: avenir;
+	font-size: 14px;
+	justify-content: center;
+
+}
+img{
+	height: 25vh;
+	opacity: 1;
+	float: left;
+	padding:0px;
+	margin: 0px;
+	z-index: -1;
+}
+
+div{
+	width: max-content;
+
+}
+
+.icon{
+	height: 10%;
+	margin: 0px;
+}
+
+
+#icon1{
+	fill: #abeaaf;
+	transform: translateX(100px) scale(1);
+
+}
+
+#icon2{
+	fill: #5f84bf;
+	transform: translateX(-100px) scale(1);
+}
+
+#icon3{
+	fill: #bf5f5f;
+	transform: translateX(-295px) scale(1);
+}
+
+#icon4{
+	fill: #fff58c;
+	transform: translateX(-550px) scale(1);
+}
+
+
+@keyframes sliderightone{
+	0% {transform: translateX(-50%);}
+    100% {transform: translate(0%);}
+}
+
+div.one{
+	height: 25vh;
+	animation-name:sliderightone;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite;
+}
+
+@keyframes slideleftone{
+	0% {transform: translateX(0%);}
+    100% {transform: translateX(-50%);}
+}
+
+div.two{
+	height:25vh;
+	animation-name:slideleftone;
+	animation-duration: 40s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite;}
+
+@keyframes sliderighttwo{
+	0% {transform: translateX(-10vw); opacity: .8;}
+    50% {transform: translateX(40vw); opacity: 1;}
+    100% {transform: translateX(0px);opacity: 1;}
+}
+
