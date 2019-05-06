@@ -1,0 +1,21 @@
+body { 
+	background-image: url("images/camera.gif");
+	background-size:100vw;
+	background-repeat: no-repeat;
+
+}
+#container{
+	height:100vh;
+	background-color: #9e8752;
+	mix-blend-mode: lighten;
+	overflow: hidden;
+	z-index: -1;
+}
+
+img{
+	display:inline;
+	width:50%;
+	z-index: 1
+
+}
+

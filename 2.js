@@ -35,6 +35,8 @@ function fire(){
 	pic1.style.opacity="0";
 	pic3.style.opacity="0";
 	body.style.backgroundColor="#960919";
+	pic2.style.transform
+
 	body.style.backgroundImage = "url('images/fire.gif')"
 	body.style.backgroundSize = "50vh";
 	fireaudio.play();

@@ -7,6 +7,10 @@ body{
 	background-image: url("https://giphy.com/gifs/cameras-f8MfMR8LjeEkE");
 }
 
+#container{
+
+	perspective: 1000px;
+}
 div button{ 
 	float: left;
 	justify-content: center;
