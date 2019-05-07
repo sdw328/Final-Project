@@ -83,7 +83,7 @@ function ball(){
 	nav[0].style.color="black";
 	nav[1].style.color="black";
 	nav[2].style.color="black";
-	nav[3].style.color="white";
+	nav[3].style.color="black";
 
 }
 
@@ -93,7 +93,7 @@ function ball2(){
 	nav[0].style.color="black";
 	nav[1].style.color="black";
 	nav[2].style.color="black";
-	nav[3].style.color="white";
+	nav[3].style.color="black";
 }
 
 
