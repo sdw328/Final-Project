@@ -8,6 +8,8 @@ var body=document.getElementById("body");
 var stormaudio = document.getElementById("stormaudio");
 var fireaudio = document.getElementById("fireaudio");
 var basketballaudio = document.getElementById("dribble");
+var ball=document.getElementById('ball');
+ball.style.opacity="0";
 
 function storm(){
 	pic1.style.transform="scale(1.1)";
@@ -16,6 +18,7 @@ function storm(){
 	pic1.style.opacity="1";
 	pic2.style.opacity="0";
 	pic3.style.opacity="0";
+	ball.style.opacity="0";
 	body.style.backgroundColor="#273259";
 	body.style.backgroundImage = "url('images/storm.gif')"
 	body.style.backgroundSize = "100vw";
@@ -24,6 +27,7 @@ function storm(){
 
 function storm2(){
 	stormaudio.pause();
+	ball.style.opacity="0";
 }
 
 
@@ -34,9 +38,9 @@ function fire(){
 	pic2.style.opacity="1";
 	pic1.style.opacity="0";
 	pic3.style.opacity="0";
+	ball.style.opacity="0";
 	body.style.backgroundColor="#960919";
 	pic2.style.transform
-
 	body.style.backgroundImage = "url('images/fire.gif')"
 	body.style.backgroundSize = "50vh";
 	fireaudio.play();
@@ -44,6 +48,7 @@ function fire(){
 
 function fire2(){
 	fireaudio.pause();
+	ball.style.opacity="0";
 }
 
 function ball(){
@@ -60,6 +65,7 @@ function ball(){
 
 function ball2(){
 	basketballaudio.pause();
+
 }
 
 
