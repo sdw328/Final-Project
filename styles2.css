@@ -10,6 +10,21 @@ body{
 	perspective: 1000px;
 }
 
+#nav{
+	display:inline;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: avenir;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+
 div button{ 
 	float: left;
 	justify-content: center;
@@ -27,29 +42,6 @@ div button{
   	background-color:red;
   }
 
-#feather1{
-	transform:rotate(-10deg);
-	fill:orange;
-}
-
-#feather2{
-	transform:rotate(-5deg);
-	fill:yellow;
-}
-
-#feather3{
-	transform:rotate(-30deg);
-	fill:red;
-}
-
-#feather4{
-	transform:rotate(-20deg);
-	fill:purple;
-}
-
-.feather{
-	padding-top:15px;
-}
 
 #ball{
 	height: 200px;
@@ -59,7 +51,7 @@ div button{
 	background-size: 125%;
 	background-position: center;
 	float: right;
-	margin-right: 10%;
+	margin-right: 50%;
 	margin-bottom: 20%;
 	z-index: 2;
 
@@ -73,7 +65,7 @@ div button{
 
  #ball {
         animation-name: shoot;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
       }
