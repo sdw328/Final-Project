@@ -27,6 +27,7 @@ function storm(){
 	nav[0].style.color="white";
 	nav[1].style.color="white";
 	nav[2].style.color="white";
+	nav[3].style.color="white";
 }
 
 function storm2(){
@@ -35,6 +36,7 @@ function storm2(){
 	nav[0].style.color="white";
 	nav[1].style.color="white";
 	nav[2].style.color="white";
+	nav[3].style.color="white";
 }
 
 
@@ -55,6 +57,7 @@ function fire(){
 	nav[0].style.color="white";
 	nav[1].style.color="white";
 	nav[2].style.color="white";
+	nav[3].style.color="white";
 }
 
 function fire2(){
@@ -63,6 +66,7 @@ function fire2(){
 	nav[0].style.color="white";
 	nav[1].style.color="white";
 	nav[2].style.color="white";
+	nav[3].style.color="white";
 }
 
 function ball(){
@@ -79,6 +83,7 @@ function ball(){
 	nav[0].style.color="black";
 	nav[1].style.color="black";
 	nav[2].style.color="black";
+	nav[3].style.color="white";
 
 }
 
@@ -88,6 +93,7 @@ function ball2(){
 	nav[0].style.color="black";
 	nav[1].style.color="black";
 	nav[2].style.color="black";
+	nav[3].style.color="white";
 }
 
 

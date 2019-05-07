@@ -1,3 +1,4 @@
+var home = document.getElementById('home');
 var link1= document.getElementById('link1');
 var link2= document.getElementById('link2');
 var link3= document.getElementById('link3');
@@ -48,6 +49,20 @@ function close3(){
 	link3.style.fontSize="60px";
 }
 
+function wide4(){
+	home.style.letterSpacing = "15px";
+	let num=Math.floor(Math.random() * 8);
+	let color=colors[num];
+	home.style.color=color;
+	home.style.fontSize="100px";
+}
+
+function close4(){
+	home.style.letterSpacing = "0px";
+	home.style.color="white";
+	home.style.fontSize="60px";
+}
+
 
 link1.addEventListener("mouseenter", wide);
 link1.addEventListener("mouseout", close);
@@ -55,4 +70,7 @@ link2.addEventListener("mouseenter", wide2);
 link2.addEventListener("mouseout", close2);
 link3.addEventListener("mouseenter", wide3);
 link3.addEventListener("mouseout", close3);
+home.addEventListener("mouseenter", wide4);
+home.addEventListener("mouseout", close4);
+
 
