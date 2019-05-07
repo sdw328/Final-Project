@@ -1,21 +1,59 @@
 body { 
-	background-image: url("images/camera.gif");
-	background-size:100vw;
-	background-repeat: no-repeat;
+	background-image: url("images/photos.gif");
+	background-size:80vw;
+	background-repeat: no-repeat 95% 50%;
+	background-position: center;
+	background-color: black;
+
 
 }
 #container{
-	height:100vh;
-	background-color: #9e8752;
-	mix-blend-mode: lighten;
+	padding-left: 300px;
+	width:60vw;
+	height:60vh;
+	//background-color: #99868f;
+	//mix-blend-mode: screen;
 	overflow: hidden;
-	z-index: -1;
+	z-index: 1;
 }
 
-img{
-	display:inline;
-	width:50%;
-	z-index: 1
+#background{
+	padding-top: 45px;
+	width:600px;
+	height:h;
+	z-index: 0;
+	background-color: grey;
+	mix-blend-mode: screen;
+}
+
+a{
+	display: inline;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: avenir;
+}
+
+a:hover{
+	color:black;
+}
+
+p{	
+	width: 15%;
+	display: inline;
 
 }
 
+#nav{
+	padding-top: 10%;
+	position: absolute;
+	z-index: 1;
+
+}
+.link{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 30px;
+	display: grid;
+	z-index: 1;
+}
